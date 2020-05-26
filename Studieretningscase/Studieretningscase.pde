@@ -110,9 +110,9 @@ void keyPressed() {
     } else if (keyCode == DOWN) {
       zoom -= .05;
     } else if (keyCode == RIGHT) {
-      angle += .05;
+      angle += .05*PI;
     } else if (keyCode == LEFT) {
-      angle -= .05;
+      angle -= .05*PI;
     }
   }
   if (key == ' ') {
